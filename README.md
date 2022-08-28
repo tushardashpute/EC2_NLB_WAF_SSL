@@ -4,8 +4,6 @@ EC2_NLB_WAF_SSL
 Will cover 
 - deploy java app on EC2
 - Create NLB (LB,TG)
-- Create WAF rules
-- Update NLB to use SSL (traffic will be shifted to https)
 
 1. Run java app on EC2 instance
 
@@ -96,8 +94,3 @@ TG status:
 Now select listener dns_name/listallcustomers and verify result if application is accessible over NLB.
 
 <img width="1092" alt="image" src="https://user-images.githubusercontent.com/74225291/187036863-60d93515-490a-4958-abf9-1d2d199fa02d.png">
-
-3. Create WAF rules
-4. Create SSL
-
-
